@@ -4,6 +4,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="wpOceans" />
     <link
@@ -28,6 +30,72 @@
     <link href="assets/css/odometer-theme-default.css" rel="stylesheet" />
     <link href="assets/sass/style.css" rel="stylesheet" />
   </head>
+  <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/212652517115" target="_blank" class="whatsapp-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
+<!-- Floating Call Button (Mobile Only) -->
+<a href="tel:+212652517115" class="call-float">
+  📞
+</a>
+
+<style>
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  width: 58px;
+  height: 58px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: .3s;
+}
+.whatsapp-float img {
+  width: 33px;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+/* Call Floating Button */
+.call-float {
+  position: fixed;
+  bottom: 95px;
+  right: 26px;
+  z-index: 99999;
+  width: 54px;
+  height: 54px;
+  background: #0088ff;
+  color: white;
+  font-size: 22px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: none; /* Hidden by default on desktop */
+  line-height: 54px;
+}
+
+/* Responsive - mobile shows call button */
+@media(max-width: 767px){
+  .call-float {
+    display: flex;
+  }
+}
+
+/* Fix overlapping with footer */
+body {
+  padding-bottom: 90px;
+}
+</style>
+
 
   <body>
     <!-- start page-wrapper -->
@@ -546,11 +614,19 @@
                           </h2>
                          
                         </div>
+                        
                       </div>
-                    </div>  <br> <br>
+                      
+                    </div>  
+                    <br> <br>
+                 
+                         
+
 
                     <div class="col-lg-6 col-md-6 col-12">
+                      
                       <div class="portfolio-single">
+                        
                         <div class="image">
                           <img src="assets/images/portfolio/WhatsApp Image 2025-11-24 à 17.34.36_dc158983.jpg" alt="" />
                         </div>
@@ -642,6 +718,54 @@
                         </div>
                       </div>
                     </div>
+                     <div class="col-lg-6 col-md-6 col-12">
+                      
+                      <div class="portfolio-single">
+                        
+                        <div class="image">
+                          <img src="assets/images/portfolio/w.png" alt="" />
+                        </div>
+                        <div class="text">
+                          <h2
+                            class="click-modal"
+                            data-title="Herbs and Spices Mobile IOS App"
+                            data-subtitle="Nickelfox - UI/UX Design"
+                            data-image="assets/images/portfolio/w.png"
+                          >
+                            <span
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                              >DESIGN</span
+                            >
+                          </h2>
+                         
+                        </div>
+                      </div>
+                    </div>
+                   <div class="col-lg-6 col-md-6 col-12">
+                      
+                      <div class="portfolio-single">
+                        
+                        <div class="image">
+                          <img src="assets/images/portfolio/Publication Facebook Service Médical Santé.png" alt="" />
+                        </div>
+                        <div class="text">
+                          <h2
+                            class="click-modal"
+                            data-title="Herbs and Spices Mobile IOS App"
+                            data-subtitle="Nickelfox - UI/UX Design"
+                            data-image="assets/images/portfolio/Publication Facebook Service Médical Santé.png"
+                          >
+                            <span
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                              >DESIGN</span
+                            >
+                          </h2>
+                         
+                        </div>
+                      </div>
+                    </div>
                   
                     <div class="row">
                         <div class="row">
@@ -658,6 +782,18 @@
       >
         <source src="assets/images/portfolio/WhatsApp Vidéo 2025-11-24 à 17.34.35_7248b47a.mp4" type="video/mp4" />
  Trailer
+      </video>
+    </div>
+     <div class="col-12 mb-4">
+  <div class="portfolio-single">
+    <div class="image ratio ratio-16x9">
+      <video
+        controls
+        preload="metadata"
+        style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"
+      >
+        <source src="assets/images/portfolio/Amazing Animated Logo Intro Video -  Black And White Animation Intro Template.mp4" type="video/mp4" />
+ Animated Logo Intro Video
       </video>
     </div>
 
