@@ -44,7 +44,7 @@ If you would like to collaborate or hire me:
 
 - 🌍 Portfolio: **walidanif.me**
 - ✉ Email: **walidanif3@gmail.com**
-- 📱 WhatsApp: **+212 XXXXXXXXX**
+- 📱 WhatsApp: **+212 652517115**
 
 ---
 
@@ -94,7 +94,7 @@ Pour collaboration ou opportunités professionnelles :
 
 - 🌍 Portfolio : **walidanif.me**
 - ✉ Email : **walidanif3@gmail.com**
-- 📱 WhatsApp : **+212 XXXXXXXXX**
+- 📱 WhatsApp : **+212 652517115**
 
 ---
 
@@ -144,7 +144,7 @@ Pour collaboration ou opportunités professionnelles :
 
 - 🌍 الموقع الشخصي: **walidanif.me**
 - ✉ البريد الإلكتروني: **walidanif3@gmail.com**
-- 📱 واتساب: **+212 XXXXXXXXX**
+- 📱 واتساب: **+212 652517115**
 
 ---
 
