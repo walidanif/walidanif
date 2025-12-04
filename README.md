@@ -6,7 +6,7 @@ This repository showcases a variety of creative work including mobile app UI/UX,
 
 ---
 
-### waWhat's Included
+### 
 
 -  Mobile App Interfaces (UI/UX)
 -  Website and Dashboard Designs
